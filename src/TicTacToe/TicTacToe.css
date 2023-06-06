@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aquamarine;
+}
+table td{
+    height: 100px;
+    width: 100px;
+    border: 1px ridge aquamarine;
+    cursor: pointer;
+}
+container:hover                                                      {
+    color: aliceblue;
+}
+.btn{
+    color: aquamarine;
+    margin-top: 0.5rem;
+}
+.para{
+    margin-top: 1rem;
+    font-size: large;
+    
+}
